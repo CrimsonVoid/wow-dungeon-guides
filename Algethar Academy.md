@@ -6,8 +6,7 @@ Mob Name
     * ability         | notable cast, interruptable
     + ability         | notable cast, hard cc/stun (unless immune)
       ability [mpdcb] | dispellable (magic, poison, disease, curse, bleed)
-      ability (0s ch) | cast time in parens, channel
-    short desc        | minor cast
+    ability (0s, 0s ch/tk/dot) | 0s cast time, 0s channel/tick rate/dot
 Mob Name* = immune to hard cc/stun
 
 Boss
@@ -52,7 +51,7 @@ Corrupted Manafiend
     + mystic blast (3s); aoe hit
 Arcane Ravager
     + vicious ambush (2.5s); charge furthest player, 6yd aoe hit (stay close to tank or los)
-    + riftbreath (2.5s, 2.5s ch); frontal cone, targets tank, dodge
+    + riftbreath (2.5s, 2.5s ch); tank frontal, dodge
 Unruly Textbook
     * monotonous lecture^m (3s, ch); 8s sleep, reapplies sleep while channeling (interrupt before dispelling sleep)
 
@@ -71,7 +70,7 @@ Spectral Invoker
     - overwhelming power; buff, 5% inc dmg done, spawns arcane rift at three stacks, getting hit by anything applies OP (short: OP)
     - arcane rift; spawns orbs, lasts whole fight
     - unleash energy (2s); aoe hit, cast on pull, spawns two arcane rift pools
-    - astral breath (2s); frontal
+    - astral breath (2s); random frontal, dodge
     - arcane missle (0s); random st hit
     - energy bomb (0s); player explodes after 6s, 8yd aoe hit
     - power vacuum (3s); grips players, 20yd hit

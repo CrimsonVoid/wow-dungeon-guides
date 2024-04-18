@@ -6,8 +6,7 @@ Mob Name
     * ability         | notable cast, interruptable
     + ability         | notable cast, hard cc/stun (unless immune)
       ability [mpdcb] | dispellable (magic, poison, disease, curse, bleed)
-      ability (0s ch) | cast time in parens, channel
-    short desc        | minor cast
+    ability (0s, 0s ch/tk/dot) | 0s cast time, 0s channel/tick rate/dot
 Mob Name* = immune to hard cc/stun
 
 Boss
@@ -29,9 +28,9 @@ Refri Defender
     - power overload [m] (1.5s); dot, targets two players, drops power field pool for 15s when removed
     - note: intermission at 15% hp, three stacks of shield, spawns nullification device mobs
         - nullifying pulse (3s); 12yd aoe hit on death, 4s silence, removes one stack of shield
-        + purifying blast (2.5s); random st hit, 10s dot ticks every 2s, stacks
+        + purifying blast (2.5s); random st hit, 10s dot, 2s tick, stacks
     - siphon power (5s); boss buff, 2% inc dmg done, larger pools from power overload, channeled during intermission, 
-    
+
 ## Trash
 Primalist Shocktrooper
     * elemental focus [m] (2s); buffs mob, inc dmg done, can be purged
@@ -66,7 +65,7 @@ Primalist Galesinger
     - ice boulder; use to los hailstorm cast
     - hailstorm (7s); aoe hit, cracks or breaks ice boulders (broken boulders dmg players)
     - glacial surge (1.5s, 10s ch); dodge rings expanding out, spawns ice boulders
-    - frost cyclone (2s); st hit and knockback, frontal line, damages boulders hit, dodge
+    - frost cyclone (2s); st hit and knockback, frontal line, dodge, damages boulders hit
     - frost shock [m] (0s); tank hit, 6s 50% move speed slow
 
 ## Trash
@@ -77,7 +76,7 @@ Ifuser Sariya*
 
 ## Primal Tsunami
     - squall buffer (2s); tank hit, knockback, casts focused deluge after
-    - focused deluge (2s, 5s ch); tank hit, ticks every 1s
+    - focused deluge (2s, 5s ch, 1s tk); tank hit
     - tempest's fury (3s); aoe hit
     - infused globule (3s); spawns orbs, move randomly, st hit if touched, explode after 11s (group to bait some orbs)
     - note: intermission at 60% hp, knocks players back and have to run back to boss, summons primal infuser

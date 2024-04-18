@@ -6,8 +6,7 @@ Mob Name
     * ability         | notable cast, interruptable
     + ability         | notable cast, hard cc/stun (unless immune)
       ability [mpdcb] | dispellable (magic, poison, disease, curse, bleed)
-      ability (0s ch) | cast time in parens, channel
-    short desc        | minor cast
+    ability (0s, 0s ch/tk/dot) | 0s cast time, 0s channel/tick rate/dot
 Mob Name* = immune to hard cc/stun
 
 Boss

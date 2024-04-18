@@ -6,8 +6,7 @@ Mob Name
     * ability         | notable cast, interruptable
     + ability         | notable cast, hard cc/stun (unless immune)
       ability [mpdcb] | dispellable (magic, poison, disease, curse, bleed)
-      ability (0s ch) | cast time in parens, channel
-    short desc        | minor cast
+    ability (0s, 0s ch/tk/dot) | 0s cast time, 0s channel/tick rate/dot
 Mob Name* = immune to hard cc/stun
 
 Boss
@@ -31,7 +30,7 @@ Defier Draghar*
     - frigid shard (0.75s); tank hit
     - awaken whelp (4s, 75%, 40% hp); shields boss, immune to interrupt, spawns infused whelps, channel frost overload
         - st dmg boss to break shield and interrupt frost overload
-    - frost overload (8s ch); aoe dmg, ticks every 2s
+    - frost overload (8s ch, 2s tk); aoe dmg
     - infused whelp: primal chill [m]; 6% slow, freezes player at 8 stacks
 
 ## Trash
