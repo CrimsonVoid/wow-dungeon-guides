@@ -6,7 +6,7 @@ Mob Name
     * ability         | notable cast, interruptable
     + ability         | notable cast, hard cc/stun (unless immune)
       ability [mpdcb] | dispellable (magic, poison, disease, curse, bleed)
-    ability (0s, 0s ch/tk/dot) | 0s cast time, 0s channel/tick rate/dot
+    ability (0s, 1s ch/2s) | 0s cast time, 0s channel, tick every 2s
 Mob Name* = immune to hard cc/stun
 
 Boss
@@ -35,7 +35,7 @@ Defier Draghar*
 
 ## Trash
 Blazebound Destroyer*
-    + inferno (3s); aoe hit, 6s dot
+    + inferno (3s, 6s dot); aoe hit
     + living bomb (1s); random target, dot, explodes after 6s, dmg players and mobs in 6yds and knockup
 Primalist Cinderweaver
     - cinderbolt (2.5s); random st hit
@@ -49,7 +49,7 @@ Thunderhead*
 ## Kokia Blazehoof
     - molten boulder (2.5s); random target, shoots boulder leaving pools, 12yd explosion when hit terrain (bait away from tank)
     - ritual of blazebinding (4s, 100 energy); spawn blazebound firestorm* on random range player
-        + inferno (3s); aoe hit, 6s dot
+        + inferno (3s, 6s dot); aoe hit
         * roaring blaze (3s); aoe hit
         - leaves pool on death
     - searing blows (3s, 3s ch); tank hit, stacking bleed dot, cast after ritual of blazebinding

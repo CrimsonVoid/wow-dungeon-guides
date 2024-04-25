@@ -6,7 +6,7 @@ Mob Name
     * ability         | notable cast, interruptable
     + ability         | notable cast, hard cc/stun (unless immune)
       ability [mpdcb] | dispellable (magic, poison, disease, curse, bleed)
-    ability (0s, 0s ch/tk/dot) | 0s cast time, 0s channel/tick rate/dot
+    ability (0s, 1s ch/2s) | 0s cast time, 0s channel, tick every 2s
 Mob Name* = immune to hard cc/stun
 
 Boss
@@ -28,7 +28,7 @@ Refri Defender
     - power overload [m] (1.5s); dot, targets two players, drops power field pool for 15s when removed
     - note: intermission at 15% hp, three stacks of shield, spawns nullification device mobs
         - nullifying pulse (3s); 12yd aoe hit on death, 4s silence, removes one stack of shield
-        + purifying blast (2.5s); random st hit, 10s dot, 2s tick, stacks
+        + purifying blast (2.5s, 10s dot/2s); random st hit, stacks
     - siphon power (5s); boss buff, 2% inc dmg done, larger pools from power overload, channeled during intermission, 
 
 ## Trash
@@ -40,7 +40,7 @@ Curious Swoglet
 Dazzling Dragonfly
     * dazzle (2.5s); frontal, dodge
 Flamecaller Aymi*
-    - pyretic burst (2s); tank hit, 6s dot
+    - pyretic burst (2s, 6s dot); tank hit
     * cauterize (3s); 33% heals mob, only cast below 50% hp
 Squallbringer Cyraz*
 
@@ -53,7 +53,7 @@ Squallbringer Cyraz*
 
 ## Trash
 Glacial Proto-Dragon*
-    + deep chill [m] (2.5s); aoe hit, 12s dot, 30% dec move speed, can be removed with snare frees
+    + deep chill [m] (2.5s, 12s dot); aoe hit, 30% dec move speed, can be removed with snare frees
     + oceanic breath (2s, 3s ch); tank frontal, follows, 15yd range
 Primalist Icecaller
     + ice shard (1.5 s); st hit (low prio)
@@ -76,7 +76,7 @@ Ifuser Sariya*
 
 ## Primal Tsunami
     - squall buffer (2s); tank hit, knockback, casts focused deluge after
-    - focused deluge (2s, 5s ch, 1s tk); tank hit
+    - focused deluge (2s, 5s ch/1s); tank hit
     - tempest's fury (3s); aoe hit
     - infused globule (3s); spawns orbs, move randomly, st hit if touched, explode after 11s (group to bait some orbs)
     - note: intermission at 60% hp, knocks players back and have to run back to boss, summons primal infuser

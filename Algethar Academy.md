@@ -6,7 +6,7 @@ Mob Name
     * ability         | notable cast, interruptable
     + ability         | notable cast, hard cc/stun (unless immune)
       ability [mpdcb] | dispellable (magic, poison, disease, curse, bleed)
-    ability (0s, 0s ch/tk/dot) | 0s cast time, 0s channel/tick rate/dot
+    ability (0s, 1s ch/2s) | 0s cast time, 0s channel, tick every 2s 
 Mob Name* = immune to hard cc/stun
 
 Boss
@@ -47,7 +47,7 @@ Alpha Eagle*
 
 ## Trash
 Corrupted Manafiend
-    * mana void (2.5s); random st 4s dot, dmg on removal and drain mana
+    * mana void (2.5s, 4s dot); random st dot, dmg on removal and drain mana
     + mystic blast (3s); aoe hit
 Arcane Ravager
     + vicious ambush (2.5s); charge furthest player, 6yd aoe hit (stay close to tank or los)

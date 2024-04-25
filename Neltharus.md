@@ -6,7 +6,7 @@ Mob Name
     * ability         | notable cast, interruptable
     + ability         | notable cast, hard cc/stun (unless immune)
       ability [mpdcb] | dispellable (magic, poison, disease, curse, bleed)
-    ability (0s, 0s ch/tk/dot) | 0s cast time, 0s channel/tick rate/dot
+    ability (0s, 1s ch/2s) | 0s cast time, 0s channel, tick every 2s
 Mob Name* = immune to hard cc/stun
 
 Boss
@@ -19,7 +19,7 @@ Qalashi Warden*
     + volcanic guard (3s); tank frontal, dodge
     + blazing slash (1s); tank hit
 Qalashi Thaumaturge
-    + magma conflagration (1s, 3s ch, 1s tk); st rot dmg
+    + magma conflagration (1s, 3s ch/1s); st rot dmg
     * molten core (2.5s); transforms ore elemental mob causing it to pulse aoe dmg
 
 ## Magatusk
@@ -27,12 +27,12 @@ Qalashi Thaumaturge
     - lava spray (3.5s); random target frontal, follows
     - blazing charge (3s); frontal charge, dodge, spawns lava waves, baitable
     - volatile mutation (2.5s, 100 energy); gains one stack of magma tentacle, applies magma eruption dot
-    - magma eruption; aoe hit and dot, dot lasts 4s * number of tentacles, 4s tick
+    - magma eruption (4s * num_tentalces dot/4s); aoe hit and dot
     - magma lob (0s); spawns 4yd pool at player, buffs boss if standing in pool
 
 ## Trash
 Qalashi Hunter
-    - bold ambush [b] (0s); random st hit, 3s dot
+    - bold ambush [b] (0s, 3s dot); random st hit
 Qalashi Trainee
     - magma fist (2s, 5s ch); tank frontal, dodge
 Qalashi Bonetender  
@@ -40,10 +40,10 @@ Qalashi Bonetender
 
 ## Chargath, Bane of Scales
     - magma wave (2s); random target frontal, dodge
-    - dragon strike [b] (2s, 2s tk); st hit, 14s dot, targets furthest player
+    - dragon strike [b] (2s, 14s dot/2s); st hit, 14s dot, targets furthest player
     - grounding spear (3.5s); st hit, targets all dps, applies grounding chain
         - grounding chain; cross boss with chain to break it, applies slag eruption dot to party, stacks
-        - slag eruption; 4s dot, 1s tick, stacks
+        - slag eruption (4s dot/1s); stacks
     - firey focus (3.5s, 25s ch, 100 energy); tank hit and dot, spawns swirlys, follows up grounding spear, massive party dmg if not stopped with chains
     - fetter; inc dmg taken for 12s, debuff applied to boss after firey focus interrupted (save dps cds)
 
@@ -52,14 +52,14 @@ Lava Flare
     * melt (2.5s); random st hit
 Qalashi Irontorch
     + scorching breath (2s); random target frontal, dodge
-    * mote of combustion [m] (2s); st 6s dot, explodes if not removed
+    * mote of combustion [m] (2s, 6s dot); st dot, explodes if not removed
 Qalashi Bonesplitter
     + pierce marrow [b] (2s); st hit and dot, charge random range target
-    + dragonbone axe [b] (3s); random st hit, 10s bleed, 1s tick (lower prio stop than pierce marrow)
+    + dragonbone axe [b] (3s, 10s dot/1s); random st hit (lower prio stop than pierce marrow)
 
 ## Forgemaster Gorek
     - might of the forge (6.5s ch); aoe rot dmg, 3 ticks of dmg, after forgestorm
-    - blazing aegis (3.5s); st hit, 4s dot, 1s tick, 3.5yd splash, spawns swirlys in X pattern, after might of the forge (line up to make dodging easier)
+    - blazing aegis (3.5s, 4s dot/1s); st hit, 3.5yd splash, spawns swirlys in X pattern, after might of the forge (line up to make dodging easier)
     - heated swings (1s, 4s ch); knockup, knockback, leaps to tank location, drops pool after leap
     - forgestorm (2s); random swirlys, partialy player targeted, after heated swings
 
@@ -78,5 +78,5 @@ Qalashi Lavamancer*
         - pick up weapons from gold to break shield and interrupt cast, applies curse of dragon hoard when picked up, 4 weapons to break shield
     - flame eruption (45s ch, 3s tk); aoe party hit, applies flame vulnerability
         - flame vulnerability; 50% inc dmg taken from flame eruption, stacks
-    - curse of the dragon hoard [c]; 30s dot, 3s tick, stacks
+    - curse of the dragon hoard [c] (30s dot/3s); stacks
     - backdraft; inc damage taken for 10s after magma shield broken (save dps cds)
