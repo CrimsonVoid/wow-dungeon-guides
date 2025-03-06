@@ -1,4 +1,4 @@
-# The Motherlode
+# Motherlode
 
 ## Legend
 Mob Name
