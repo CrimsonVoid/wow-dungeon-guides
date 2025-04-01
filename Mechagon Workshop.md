@@ -62,7 +62,26 @@ Workshop Defender
   + shield generator (0s, 20s ch); 75% dr for players and mobs in shield
 
 ## Machinist's Garden
+  + self-trimming hedge (0s); dodge bouncing saw
+  + discom-BOMB-ulator (0s); aoe hit, dodge
+  + hidden flame cannon (0s, 10s dot/2s); rotate with beams around room, dot if hit
+Inconspicuous Plant
+  - note: flame cannon ignites plant when killed spewing circles, dodge
+  + blossom blast; st hit
 
 ## Trash
+Spider Tank
+  + high-explosive rockets (passive); aoe dmg every 4s
+  + sonic pulse (3s); random frontal, 8s silence, dodge
 
 ## King Mechagon
+  - note: Phase 1:
+  + pulse blase (1.5s); tank hit
+  + recalibrate (3s); orbs chrage to random players, dodge
+  + mega-zap (3s, 12s dot/2s); st frontal, follows, inc dmg from mega-zap for 12s
+  + take-off (2.5s); launches into air, casts cutting beam after
+  + cutting beam (6s ch, 6s rot/.5s); aoe rot, fixate
+  - note: Phase 2:
+  - note: tank must be in range at all times
+  + mega-zap (3s); large beam, fires thrice
+  + magneto-arm (1.5s, 9s rot/1s); aoe rot, less dmg further from boss, pulls players and orbs towards boss
