@@ -72,13 +72,13 @@ Disturbed Kelp
 
 ## Trash
 Bubbles*
-  + bubble burp (2s); pools on players, bait and dodge
+  + bubble burp (2s); pools on players, bait & dodge
   + splish splash (3s); st frontal, dodge
   + backwash(3s, 10s dot/1s); aoe hit, dot, stacks
 Venture Co. Electrician
   + overcharge (0s, 12s dot/1.5s) [m]; st hit, 5s stun if not dispelled
 Darkfuse Jumpstarter*
-  + battery discharge (0s); aoe rot every 5s, dodge circles
+  + battery discharge (passive); aoe rot every 5s, dodge circles
 
 ## Geezle Gigazap
   + turbo charge (0s, 10s rot/1s, 0 energy); aoe rot, dodge lines, spawns puddles after
