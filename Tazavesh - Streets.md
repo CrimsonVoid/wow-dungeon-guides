@@ -1,19 +1,5 @@
 # Tazavesh: Streets of Wonder
 
-## Legend
-Mob Name
-    - ability; desc   | minor cast, interrupt if possible
-    * ability         | notable cast, interruptable
-    + ability         | notable cast, hard cc/stun (unless immune)
-      ability [mpdcbr] | dispellable (magic, poison, disease, curse, bleed, enrage)
-    ability (0s, 1s ch/2s) | 0s cast time, 0s channel, tick every 2s 
-Mob Name* = immune to hard cc/stun
-
-Boss
-    - ability | cast
-    + ability | important cast
-    * ability | interruptable cast
-
 ## Trash
 Gatewarden Zo'mazz*
   + radiant pulse (2s, 3s rot/1s); aoe hit

@@ -1,19 +1,5 @@
 # Algeth'ar Academy
 
-## Legend
-Mob Name
-    - ability; desc   | minor cast, interrupt if possible
-    * ability         | notable cast, interruptable
-    + ability         | notable cast, hard cc/stun (unless immune)
-      ability [mpdcb] | dispellable (magic, poison, disease, curse, bleed)
-    ability (0s, 1s ch/2s) | 0s cast time, 0s channel, tick every 2s 
-Mob Name* = immune to hard cc/stun
-
-Boss
-    - ability | cast
-    + ability | important cast
-    * ability | interruptable cast
-
 ## Trash
 Vile Lasher
     - detonation seed (0s); 6yd swirly, dodge
@@ -111,27 +97,3 @@ Ethereal Restorer
     - celestial shield (2s); shield, 50% inc haste for 30s
 
 ## Echo of Doragosa
-
-
-
-
-
-
-
-
-
-
-## Legend
-Mob Name
-    - ability; desc   | minor cast, interrupt if possible
-    * ability         | notable cast, interruptable
-    + ability         | notable cast, hard cc/stun (unless immune)
-      ability [mpdcb] | dispellable (magic, poison, disease, curse, bleed)
-      ability (0s ch) | cast time in parens, channel
-    short desc        | minor cast
-Mob Name* = immune to hard cc/stun
-
-Boss
-    - ability | cast
-    + ability | important cast
-    * ability | interruptable cast
