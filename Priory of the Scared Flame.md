@@ -36,7 +36,7 @@ Sergeant Shaynemail*
 
 Forge Master Damian* (right)
   note: summons Elaena Emberlanz
-  + heat wave (2.5s) [m]; aoe hit, slow
+  + heat wave (2.5s) [m]; aoe hit
   + seal of flame (1.5); inc dmg done, melee hits spawn pools
 Elaena Emberlanz*
   + divine judgement (2.5) [m]; tank hit, inc dmg taken
@@ -54,8 +54,8 @@ Taener Duelmal*
 ## Captain Dailcry
   note: shares hp, can cleave with miniboss
   * battlecry (2.5s); aoe hit ignores armor, 30s aoe buff inc dmg done, stacks
-  + hurl spear (2.5s, 8s dot/.5s) [b]; frontal line, dodge, dot
-  + pierce armor (2.5s, 10s dot/1s) [b]; tank hit, dot
+  + earthshattering spear (3s); aoe hit, 8yd pool
+  + pierce armor (2.5s, 7s dot/1s) [b]; tank hit, dot
   + savage mauling (100 energy); st hit and stun, dot tick per .5s, break shield and interrupt
 
 ## Trash
@@ -64,7 +64,7 @@ Zealous Templar
   - templars wrath (0s) [m]; buff, inc dmg, purgable
 Ardent Paladin*
   - consecration (2.7s); pool, dodge
-  + sacred toll (2.5s); aoe dmg
+  + sacred toll (2.5s); aoe hit
 
 ## Baron Braunpyke
   + vindictive wrath (2.5s, 100 energy); empowerd boss, inc dmg of melee and abilities
