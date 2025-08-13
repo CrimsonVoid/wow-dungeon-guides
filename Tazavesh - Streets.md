@@ -42,14 +42,14 @@ Bazaar Overseer
 ## Trade Event RP
   note: holding item slows player and Bazaar Strongarm fixate
 
-## Zo'gron
+## Myza's Oasis
   note: pickup instruments to start fight (hint: healer on drums in back, tank on horn in front). use extra action button to collect music notes to get up tempo buff
   + up tempo (40s buff); +25% dmg, healing, haste
   * menacing shout (3s); aoe hit, silence
   + security slam (3s); tank hit
   + suppression spark (100 energy, 6s); aoe hit, pulls players in, spawns music notes
   + crowd control (1s; 5s ch); frontal, reflects dmg from front
-  + final warning (20s, 70%, 35% hp); shields, aoe hit is not interrupted
+  + final warning (20s, 70%, 35% hp); shields, aoe hit if not interrupted
 
   Oasis Security
     * menacing shout (3s); aoe hit, silence
@@ -65,7 +65,7 @@ POST Worker
 Defective Sorter
   + open cage (0s); spawns adds that stun players
 
-## POST Master
+## Mailroom Mayhem
   + hazardous liquid (2s); soak circle, spawns pools if not soaked, applies alchemical residue
   + alchemical residue (10s dot/1s) [m]; stacking dot from soaking hazardous liquid
   + fan mail (2s, 5s ch/1s); aoe rot
@@ -95,7 +95,7 @@ Enraged Direhorn
 Frenzied Nightclaw
   - random leap and bleed dot, stacks
 
-## Venza Goldfuse
+## Grand Menagerie
   note: three bosses, next boss spawns when current boss reaches 50% hp
 
   Alcruux
@@ -113,6 +113,7 @@ Frenzied Nightclaw
     + whirling annilation (3s, 6s ch/1s); 7yd aoe dmg, pulls players in
     + chains of damnation (2.5s, -1s dot/2s); root, remove with freedom or similar
 
+## Trash
 Commander Zo'far
   note: can be skipped by clicking teleporter from max range
   + lethal force (0.75s, 8s dot); binds two players pulling them together, large dot if players collide
